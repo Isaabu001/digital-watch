@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>Smart Watch</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="flex1">
+      <div class="logo">
+        <h1 style="font-size: xx-large;">KENTAI</h1>
+      </div>
+      <div class="navMenu">
+        <a href="#home" class="homeNavItem navItem">Home</a>
+        <a href="about.html" class="aboutNavItem navItem">About</a>
+        <a href="features.html" class="featuresNavItem navItem">Features</a>
+        <a href="product.html" class="productNavItem navItem">Product</a>
+        <a href="testimonial.html" class="testimonialNavItem navItem">Testimonial</a>
+        <a href="faq.html" class="faqNavItem navItem">FQA</a>
+        <a href="contact.html" class="contactNavItem navItem">Contact</a>
+        <a href="map.html" class="contactNavItem navItem">Map</a>
+      </div>
+      <i class="fas fa-bars hamburger"></i>
+    </nav>
+  </header>
+
+
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".navMenu");
+
+    hamburger.addEventListener("click", mobileMenu);
+
+    function mobileMenu() {
+      hamburger.classList.toggle("active");
+      navMenu.classList.toggle("active");
+    }
+  </script>
+
+
+  <main>
+    <section class="home background" id="home">
+      <div class="container flex1">
+        <div class="left">
+          <h1> Best digital watch for your daily life </h1>
+          <p>kentai. </p>
+          <button>X</button>
+        </div>
+        <div class="right  mtop">
+          <div class="img_animation">
+            <img src="https://scontent.flos1-2.fna.fbcdn.net/v/t1.15752-9/348357214_174183505616114_2868194250639869626_n.png?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGTEucyD01OEIq2i9VHckDqWzl539z6-jNbOXnf3Pr6M7kyGD9Fx5dzinFFG7glzcEmQl6Ec_6uEv4A0qz-1_Jj&_nc_ohc=IK09Ou0mL-sAX9cBk0h&_nc_oc=AQk98UEddpipzhfKZeiLCul91WnSqhkLOW5nQwopWFeTcOClgrYYkrsmBInP5K50yAs&_nc_ht=scontent.flos1-2.fna&oh=03_AdT0P-cqwP374Ym147Qkx8FBWPMQBnPEZ2ABd-qlWkMMGw&oe=649C0DA7" alt="">
+          </div>
+          <div class="text">
+            <h2> <span>50%</span>Off </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+
+
+
+
+    <section class="about background2" id="about">
+      <div class="container">
+        <div class="heading">
+          <h2>Why KENTAI Apple Is Best </h2>
+          <p>kentai. </p>
+        </div>
+
+        <div class="content mtop flex">
+          <div class="left mtop">
+            <img src="https://github.com/sunil9813/Watch-Website/blob/master/image/a.png?raw=true" alt="">
+          </div>
+          <div class="right grid">
+            <div class="box">
+              <i class="fas fa-palette"></i>
+              <h3>High Quality Design </h3>
+              <p>Viewing hastily or written dearest elderly up weather. direction so sweetness.</p>
+            </div>
+            <div class="box">
+              <i class="fas fa-mobile"></i>
+              <h3>High Quality Design </h3>
+              <p>Viewing hastily or written dearest elderly up weather. direction so sweetness.</p>
+            </div>
+            <div class="box">
+              <i class="fas fa-mobile"></i>
+              <h3>High Quality Design </h3>
+              <p>Viewing hastily or written dearest elderly up weather. direction so sweetness.</p>
+            </div>
+            <div class="box">
+              <i class="fas fa-palette"></i>
+              <h3>High Quality Design </h3>
+              <p>Viewing hastily or written dearest elderly up weather. direction so sweetness.</p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+
+    
+    <footer class="background">
+      <div class="container">
+        <div class="heading">
+            <div class="logo">
+                <h1 style="font-size: xx-large;">KENTAI</h1>
+              </div>
+          <p>kentai.</p>
+
+          <div class="icon flex">
+            <img src="https://img.icons8.com/color/50/000000/facebook-new.png" />
+            <img src="https://img.icons8.com/color/48/000000/twitter-circled--v5.png" />
+            <img src="https://img.icons8.com/color/48/000000/pinterest--v6.png" />
+            <img src="https://img.icons8.com/fluency/48/000000/linkedin-circled.png" />
+            <img src="https://img.icons8.com/fluency/48/000000/google-plus-circled.png" />
+            <img src="https://img.icons8.com/fluency/48/000000/github.png" />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+
+
+
+
+
+
+
+
+
+  <script>
+    function selectElementByClass(className) {
+      return document.querySelector(`.${className}`);
+    }
+
+    const sections = [
+      selectElementByClass('home'),
+      selectElementByClass('about'),
+      selectElementByClass('features'),
+      selectElementByClass('product'),
+      selectElementByClass('testimonial'),
+      selectElementByClass('faq'),
+      selectElementByClass('contact'),
+    ];
+
+    const navItems = {
+      home: selectElementByClass('homeNavItem'),
+      about: selectElementByClass('aboutNavItem'),
+      features: selectElementByClass('featuresNavItem'),
+      product: selectElementByClass('productNavItem'),
+      testimonial: selectElementByClass('testimonialNavItem'),
+      faq: selectElementByClass('faqNavItem'),
+      contact: selectElementByClass('contactNavItem'),
+    };
+
+    // intersection observer setup
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.5,
+    };
+
+    function observerCallback(entries, observer) {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          // get the nav item corresponding to the id of the section
+          // that is currently in view
+          const navItem = navItems[entry.target.id];
+          // add 'active' class on the navItem
+          navItem.classList.add('active');
+          // remove 'active' class from any navItem that is not
+          // same as 'navItem' defined above
+          Object.values(navItems).forEach((item) => {
+            if (item != navItem) {
+              item.classList.remove('active');
+            }
+          });
+        }
+      });
+    }
+
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+    sections.forEach((sec) => observer.observe(sec));
+  </script>
+
+
+</body>
+
+</html>
+
+
+
+<style>
+  body{
+    background-color: #011334;
+  }
+</style>

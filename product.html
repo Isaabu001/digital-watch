@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>Smart Watch</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="flex1">
+      <div class="logo">
+        <h1 style="font-size: xx-large;">KENTAI</h1>
+      </div>
+      <div class="navMenu">
+        <a href="#home" class="homeNavItem navItem">Home</a>
+        <a href="about.html" class="aboutNavItem navItem">About</a>
+        <a href="features.html" class="featuresNavItem navItem">Features</a>
+        <a href="product.html" class="productNavItem navItem">Product</a>
+        <a href="testimonial.html" class="testimonialNavItem navItem">Testimonial</a>
+        <a href="faq.html" class="faqNavItem navItem">FQA</a>
+        <a href="contact.html" class="contactNavItem navItem">Contact</a>
+        <a href="map.html" class="contactNavItem navItem">Map</a>
+      </div>
+      <i class="fas fa-bars hamburger"></i>
+    </nav>
+  </header>
+
+
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".navMenu");
+
+    hamburger.addEventListener("click", mobileMenu);
+
+    function mobileMenu() {
+      hamburger.classList.toggle("active");
+      navMenu.classList.toggle("active");
+    }
+  </script>
+
+
+  <main>
+    <section class="home background" id="home">
+      <div class="container flex1">
+        <div class="left">
+          <h1> Best digital watch for your daily life </h1>
+          <p>kentai. </p>
+          <button>X</button>
+        </div>
+        <div class="right  mtop">
+          <div class="img_animation">
+            <img src="https://scontent.flos1-2.fna.fbcdn.net/v/t1.15752-9/348357749_646245563509324_3459123108505034137_n.png?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGQOFHzkZ4j8NtuagIO6oqlIRdrYX4-jSohF2thfj6NKji6lr8rclKHVj8D0Xgb9q1IdiRVWB1sv02MM6FjJk2v&_nc_ohc=OsoKXvhxfxcAX9wHzij&_nc_ht=scontent.flos1-2.fna&oh=03_AdRODqH0IaxS9WkJkDNbexc9qAoc2saYBmqWZqhq6oHnwQ&oe=649C23CB" alt="">
+          </div>
+          <div class="text">
+            <h2> <span>50%</span>Off </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+
+
+
+    <section class="product background" id="product">
+      <div class="container">
+        <div class="heading">
+          <h2>Our Awesome Products </h2>
+          <p>kentai. </p>
+        </div>
+
+        <div class="content grid1 mtop">
+          <div class="box">
+            <div class="img">
+              <img src="https://scontent.flos1-1.fna.fbcdn.net/v/t1.15752-9/348358249_959780771814125_27925417308343493_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFFgEpZWdud0mHsZNxIwLWKMrCbKZIF3jYysJspkgXeNphdLqt6l9hNa1etgzu1hxn3QKdvY-RhUaCwuLGqyHMh&_nc_ohc=AaTeL2Hduv8AX-2Id_7&_nc_ht=scontent.flos1-1.fna&oh=03_AdTOIiK1LS9fxxmSTFotK-AdhqODNB9PHu5PcJUtOCunjQ&oe=649C2312" alt="">
+            </div>
+            <div class="text">
+              <h3>Ponno Blue</h3>
+              <div class="rate flex">
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star "></i>
+              </div>
+              <h1>$135 <span>$193</span> </h1>
+              <button>X</button>
+            </div>
+          </div>
+          <div class="box">
+            <div class="img">
+              <img src="https://github.com/sunil9813/Watch-Website/blob/master/image/a.png?raw=true" alt="">
+            </div>
+            <div class="text">
+              <h3>Ponno Black</h3>
+              <div class="rate flex">
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star "></i>
+              </div>
+              <h1>$135 <span>$193</span> </h1>
+              <button>X</button>
+            </div>
+          </div>
+          <div class="box">
+            <div class="img">
+              <img src="https://github.com/sunil9813/Watch-Website/blob/master/image/home.png?raw=true" alt="">
+            </div>
+            <div class="text">
+              <h3>Ponno Grey</h3>
+              <div class="rate flex">
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star "></i>
+              </div>
+              <h1>$135 <span>$193</span> </h1>
+              <button>X</button>
+            </div>
+          </div>
+          <div class="box">
+            <div class="img">
+              <img src="https://scontent.flos1-1.fna.fbcdn.net/v/t1.15752-9/348357673_640710911407010_4789395868321919472_n.png?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeHMe2b-_0piJ_SDN8fHXvjtqTHwylEx3FmpMfDKUTHcWXAS1gzWuzRSGSz3CDFRoIAaa8EpJ2dNXXayPHHY_tc1&_nc_ohc=QVkp2tI5_jQAX-TfFeB&_nc_ht=scontent.flos1-1.fna&oh=03_AdRseUS1p8Nqq2qo0sb7kIk3_AFmNu4DDCPEFlW60NZGDw&oe=649C01CF" alt="">
+            </div>
+            <div class="text">
+              <h3>Ponno Black</h3>
+              <div class="rate flex">
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star "></i>
+              </div>
+              <h1>$135 <span>$193</span> </h1>
+              <button>X</button>
+            </div>
+          </div>
+          <div class="box">
+            <div class="img">
+              <img src="https://scontent.flos1-2.fna.fbcdn.net/v/t1.15752-9/348357214_174183505616114_2868194250639869626_n.png?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGTEucyD01OEIq2i9VHckDqWzl539z6-jNbOXnf3Pr6M7kyGD9Fx5dzinFFG7glzcEmQl6Ec_6uEv4A0qz-1_Jj&_nc_ohc=IK09Ou0mL-sAX8AAFKX&_nc_oc=AQnbJutmqIISdSW9ge8I64QlOccEOQbUA005rXnKqc80iu9Mfhc2ZiZ5jvDDdv7YJY8&_nc_ht=scontent.flos1-2.fna&oh=03_AdQDqc5xfEnhT6FuA27UzmjCwdaqRMDek1qCpGw6BZ_hHg&oe=649C0DA7" alt="">
+            </div>
+            <div class="text">
+              <h3>Ponno Black</h3>
+              <div class="rate flex">
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star "></i>
+              </div>
+              <h1>$135 <span>$193</span> </h1>
+              <button>X</button>
+            </div>
+          </div>
+          <div class="box">
+            <div class="img">
+              <img src="https://scontent.flos1-1.fna.fbcdn.net/v/t1.15752-9/345527817_257876230224096_2977849933271215449_n.png?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeHVGeKFwv28LcFYrz_r_TfbFJ77P-cnXx0Unvs_5ydfHTXKIqvif5MY5KdR2kPS9z6XxXGqSlGk8QwBz_CMkGhs&_nc_ohc=BGfIXaFc3fQAX8t2Gnx&_nc_ht=scontent.flos1-1.fna&oh=03_AdRrRep1pQ4qkRzBw5R3gcEanXyZn_kThxf5WszY9QOfaw&oe=649BF8F2" alt="">
+            </div>
+            <div class="text">
+              <h3>Ponno Black</h3>
+              <div class="rate flex">
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star "></i>
+              </div>
+              <h1>$135 <span>$193</span> </h1>
+              <button>X</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+
+    <footer class="background">
+      <div class="container">
+        <div class="heading">
+            <div class="logo">
+                <h1 style="font-size: xx-large;">KENTAI</h1>
+              </div>
+          <p>kentai.</p>
+
+          <div class="icon flex">
+            <img src="https://img.icons8.com/color/50/000000/facebook-new.png" />
+            <img src="https://img.icons8.com/color/48/000000/twitter-circled--v5.png" />
+            <img src="https://img.icons8.com/color/48/000000/pinterest--v6.png" />
+            <img src="https://img.icons8.com/fluency/48/000000/linkedin-circled.png" />
+            <img src="https://img.icons8.com/fluency/48/000000/google-plus-circled.png" />
+            <img src="https://img.icons8.com/fluency/48/000000/github.png" />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+
+
+
+
+
+
+
+
+
+  <script>
+    function selectElementByClass(className) {
+      return document.querySelector(`.${className}`);
+    }
+
+    const sections = [
+      selectElementByClass('home'),
+      selectElementByClass('about'),
+      selectElementByClass('features'),
+      selectElementByClass('product'),
+      selectElementByClass('testimonial'),
+      selectElementByClass('faq'),
+      selectElementByClass('contact'),
+    ];
+
+    const navItems = {
+      home: selectElementByClass('homeNavItem'),
+      about: selectElementByClass('aboutNavItem'),
+      features: selectElementByClass('featuresNavItem'),
+      product: selectElementByClass('productNavItem'),
+      testimonial: selectElementByClass('testimonialNavItem'),
+      faq: selectElementByClass('faqNavItem'),
+      contact: selectElementByClass('contactNavItem'),
+    };
+
+    // intersection observer setup
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.5,
+    };
+
+    function observerCallback(entries, observer) {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          // get the nav item corresponding to the id of the section
+          // that is currently in view
+          const navItem = navItems[entry.target.id];
+          // add 'active' class on the navItem
+          navItem.classList.add('active');
+          // remove 'active' class from any navItem that is not
+          // same as 'navItem' defined above
+          Object.values(navItems).forEach((item) => {
+            if (item != navItem) {
+              item.classList.remove('active');
+            }
+          });
+        }
+      });
+    }
+
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+    sections.forEach((sec) => observer.observe(sec));
+  </script>
+
+
+</body>
+
+</html>
+
+
+
+<style>
+  body{
+    background-color: #011334;
+  }
+</style>
